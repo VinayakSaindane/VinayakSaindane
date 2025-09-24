@@ -59,11 +59,6 @@
 
 </div>
 
-<!-- Metrics Achievements (compact, no extra setup) -->
-<div align="center">
-  <img src="https://metrics.lecoq.io/VinayakSaindane?template=classic&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=6" alt="metrics" />
-</div>
-
 ---
 
 ## 🚀 Featured Projects
