@@ -65,7 +65,7 @@
 - Portfolio — Responsive personal site, Lighthouse‑tuned. (Next.js + Tailwind)  
 - Job App — Job posting + ATS with auth, filters, search. (MERN)  
 - Cafe — Ordering flow with cart + admin panel. (React + Express)  
-- Eiphoria Classes — Course listing with basic CMS. (MERN)  
+- Euphoria Classes — Course listing with basic CMS. (MERN)  
 
 ---
 
