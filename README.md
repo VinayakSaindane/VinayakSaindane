@@ -3,18 +3,16 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vinayak%20Saindane&fontSize=60&animation=fadeIn" alt="header" />
 </div>
 
-<!-- Typing banner -->
+<!-- Typing banner (Heroku mirror for reliability) -->
 <div align="center">
-  <a href="https://github.com/VinayakSaindane">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=2500&pause=900&color=00D1B2&center=true&vCenter=true&width=900&lines=Frontend+•+Full‑Stack+•+Mobile;React+%7C+Next.js+%7C+Node.js+%7C+Flutter;Clean+UI%2C+Reliable+APIs%2C+Fast+Delivery" alt="Typing SVG" />
+  <a href="https://readme-typing-svg.herokuapp.com">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=900&color=00D1B2&center=true&vCenter=true&width=900&lines=Frontend+•+Full‑Stack+•+Mobile;React+%7C+Next.js+%7C+Node.js+%7C+Flutter;Clean+UI%2C+Reliable+APIs%2C+Fast+Delivery" alt="Typing SVG" />
   </a>
 </div>
 
 <div align="center">
-  
   <!-- Visitor counter -->
   <img src="https://komarev.com/ghpvc/?username=VinayakSaindane&style=flat-square&color=blue" alt="profile views" />
-  
 </div>
 
 ---
@@ -61,7 +59,7 @@
 
 </div>
 
-<!-- Optional: Metrics panel (static embed via external service) -->
+<!-- Metrics Achievements (compact, no extra setup) -->
 <div align="center">
   <img src="https://metrics.lecoq.io/VinayakSaindane?template=classic&base.repositories=0&base.metadata=0&achievements=1&achievements.threshold=C&achievements.secrets=true&achievements.display=compact&achievements.limit=6" alt="metrics" />
 </div>
