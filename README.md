@@ -62,10 +62,61 @@
 ---
 
 ## 🚀 Featured Projects
-- Portfolio — Responsive personal site, Lighthouse‑tuned. (Next.js + Tailwind)  
-- Job App — Job posting + ATS with auth, filters, search. (MERN)  
-- Cafe — Ordering flow with cart + admin panel. (React + Express)  
-- Euphoria Classes — Course listing with basic CMS. (MERN)  
+
+<div align="center">
+
+<table>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h4>Portfolio</h4>
+      <img src="https://img.shields.io/badge/Next.js-000?logo=nextdotjs&logoColor=white" />
+      <img src="https://img.shields.io/badge/Tailwind-0EA5E9?logo=tailwindcss&logoColor=white" />
+      <p align="center">
+        Edge‑rendered, A11y‑first site with 100/100 Lighthouse, OG + schema, and CI preview deploys.
+      </p>
+      <img src="https://img.shields.io/badge/Lighthouse-100-10B981?style=flat-square" />
+      <img src="https://img.shields.io/badge/CI-Preview-3B82F6?style=flat-square" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h4>Job App</h4>
+      <img src="https://img.shields.io/badge/MongoDB-115e59?logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Node.js-3C873A?logo=nodedotjs&logoColor=white" />
+      <p align="center">
+        ATS pipeline with JWT auth, role dashboards, full‑text search, filters, and resume parsing workflow.
+      </p>
+      <img src="https://img.shields.io/badge/Auth-JWT-7C3AED?style=flat-square" />
+      <img src="https://img.shields.io/badge/Search-Full--Text-06B6D4?style=flat-square" />
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" align="center" valign="top">
+      <h4>Cafe</h4>
+      <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white" />
+      <p align="center">
+        Real‑time cart and order tracking, payments via webhooks, staff admin, inventory sync, printable receipts.
+      </p>
+      <img src="https://img.shields.io/badge/Realtime-WebSockets-22D3EE?style=flat-square" />
+      <img src="https://img.shields.io/badge/Payments-Webhooks-10B981?style=flat-square" />
+    </td>
+    <td width="50%" align="center" valign="top">
+      <h4>Euphoria Classes</h4>
+      <img src="https://img.shields.io/badge/MongoDB-115e59?logo=mongodb&logoColor=white" />
+      <img src="https://img.shields.io/badge/Express-000?logo=express&logoColor=white" />
+      <img src="https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB" />
+      <img src="https://img.shields.io/badge/Node.js-3C873A?logo=nodedotjs&logoColor=white" />
+      <p align="center">
+        Course catalog with modular CMS blocks, protected content, coupons, and engagement analytics.
+      </p>
+      <img src="https://img.shields.io/badge/CMS-Blocks-60A5FA?style=flat-square" />
+      <img src="https://img.shields.io/badge/Access-Protected-E11D48?style=flat-square" />
+    </td>
+  </tr>
+</table>
+
+</div>
 
 ---
 
