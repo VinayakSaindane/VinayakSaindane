@@ -3,10 +3,13 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=200&section=header&text=Vinayak%20Saindane&fontSize=60&animation=fadeIn" alt="header" />
 </div>
 
-<!-- Typing banner (Heroku mirror for reliability) -->
+<!-- Typing banner -->
 <div align="center">
   <a href="https://readme-typing-svg.herokuapp.com">
-    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=26&duration=2500&pause=900&color=00D1B2&center=true&vCenter=true&width=900&lines=Frontend+•+Full‑Stack+•+Mobile;React+%7C+Next.js+%7C+Node.js+%7C+Flutter;Clean+UI%2C+Reliable+APIs%2C+Fast+Delivery" alt="Typing SVG" />
+    <img
+      src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=24&duration=2500&pause=900&color=00D1B2&center=true&vCenter=true&width=900&lines=Full%E2%80%91Stack+%26+Mobile+Developer;React+%7C+Next.js+%7C+Node.js+%7C+Flutter;Clean+UI%2C+Reliable+APIs%2C+Production%E2%80%91ready+Shipments"
+      alt="Typing SVG"
+    />
   </a>
 </div>
 
@@ -17,19 +20,40 @@
 
 ---
 
-## 📌 About Me
-📍 Mumbai, India  
-✉️ vinayaksaindane2006@gmail.com  
-🔭 Currently: Portfolio, Job App platform, UI/UX polish  
-🧠 Learning: TypeScript patterns, CI/CD, performance profiling
+## 👋 About Me
+
+- 🧑‍💻 Full‑stack & mobile developer focused on shipping real, production‑ready apps.  
+- 📍 Mumbai, India  
+- ✉️ Reach me: [vinayaksaindane2006@gmail.com](mailto:vinayaksaindane2006@gmail.com)  
+
+**Currently working on**
+
+- 🔭 Portfolio & job platform, plus polished UI/UX for client projects  
+- 🧠 Deepening: TypeScript patterns, CI/CD (GitHub Actions), performance profiling & observability  
+
+---
+
+## 🧩 How I Can Help
+
+- 🚀 Turn ideas into MVPs (design → dev → deploy) using React/Next.js & Node  
+- 🏪 Upgrade local business sites with modern UI, mobile‑first design, and online ordering/booking flows  
+- ⚙️ Build internal tools & dashboards to automate workflows and make data visible  
 
 ---
 
 ## 🛠 Tech Stack
-**Frontend:** React, Next.js, TypeScript, Tailwind  
-**Backend:** Node.js, Express, MongoDB, PostgreSQL  
-**Mobile:** Flutter (Android)  
-**Tools:** Git, Docker, GitHub Actions
+
+**Frontend**  
+React • Next.js • TypeScript • Tailwind CSS  
+
+**Backend**  
+Node.js • Express • MongoDB • PostgreSQL • REST APIs  
+
+**Mobile**  
+Flutter (Android)  
+
+**DevOps & Tools**  
+Git • GitHub Actions • Docker • Vercel • Railway  
 
 <div align="center">
 
@@ -47,29 +71,55 @@
 
 ---
 
+## 🚀 Featured Projects
+
+> A few highlights – check pinned repos for more.
+
+- **Portfolio** – Responsive personal site, tuned for Lighthouse and Core Web Vitals.  
+  _Next.js • Tailwind • Vercel_  
+
+- **Job App Platform** – Job posting, applications, ATS‑style filters & search, authentication, protected routes.  
+  _MERN stack • JWT auth_  
+
+- **Cafe / Restaurant App** – Full ordering flow with cart, menu, and basic admin panel for managing items & orders.  
+  _React • Express • MongoDB • REST APIs_  
+
+- **Euphoria Classes** – Course listing platform with a light CMS for managing content & batches.  
+  _MERN stack • Admin dashboard_  
+
+---
+
 ## 📊 Stats & Activity
+
 <div align="center">
 
 <!-- Stats -->
-<img height="165" alt="GitHub Stats" src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" />
+<img
+  height="165"
+  alt="GitHub Stats"
+  src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github"
+/>
+
 <!-- Streak -->
-<img height="165" alt="GitHub Streak" src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true" />
+<img
+  height="165"
+  alt="GitHub Streak"
+  src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true"
+/>
+
 <!-- Top languages -->
-<img height="150" alt="Top Langs" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinayakSaindane&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400" />
+<img
+  height="150"
+  alt="Top Langs"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinayakSaindane&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=86400"
+/>
 
 </div>
 
 ---
 
-## 🚀 Featured Projects
-- Portfolio — Responsive personal site, Lighthouse‑tuned. (Next.js + Tailwind)  
-- Job App — Job posting + ATS with auth, filters, search. (MERN)  
-- Cafe — Ordering flow with cart + admin panel. (React + Express)  
-- Euphoria Classes — Course listing with basic CMS. (MERN) 
-
 ## 🐍 Contribution Snake
 
-<!-- GitHub Snake Graph -->
 <p align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake-dark.svg" />
@@ -81,6 +131,7 @@
 ---
 
 ## 🌐 Connect
+
 <a href="https://www.linkedin.com/in/vinayak-saindane/">
   <img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" />
 </a>
