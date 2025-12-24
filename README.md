@@ -97,21 +97,21 @@ Git • GitHub Actions • Docker • Vercel • Railway
 <img
   height="165"
   alt="GitHub Stats"
-  src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800"
+  src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=7200&refresh=today"
 />
 
 <!-- Streak -->
 <img
   height="165"
   alt="GitHub Streak"
-  src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true&cache_seconds=1800"
+  src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true&cache_seconds=7200&refresh=today"
 />
 
 <!-- Top languages -->
 <img
   height="150"
   alt="Top Langs"
-  src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinayakSaindane&layout=compact&langs_count=8&theme=tokyonight&hide_border=true"
+  src="https://github-readme-stats.vercel.app/api/top-langs/?username=VinayakSaindane&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&cache_seconds=7200&refresh=today"
 />
 
 </div>
