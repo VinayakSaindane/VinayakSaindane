@@ -97,14 +97,14 @@ Git • GitHub Actions • Docker • Vercel • Railway
 <img
   height="165"
   alt="GitHub Stats"
-  src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&t=1"
+  src="https://github-readme-stats.vercel.app/api?username=VinayakSaindane&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github&cache_seconds=1800"
 />
 
 <!-- Streak -->
 <img
   height="165"
   alt="GitHub Streak"
-  src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true&t=1"
+  src="https://streak-stats.demolab.com?user=VinayakSaindane&theme=tokyonight&hide_border=true&cache_seconds=1800"
 />
 
 <!-- Top languages -->
@@ -122,9 +122,9 @@ Git • GitHub Actions • Docker • Vercel • Railway
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake-dark.svg?palette=github-dark&v=1" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake.svg?v=1" />
-    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake.svg?v=1" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake-dark.svg?palette=github-dark&v=3" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake.svg?v=3" />
+    <img alt="GitHub Snake" src="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake.svg?v=3" width="100%">
   </picture>
 </p>
 
