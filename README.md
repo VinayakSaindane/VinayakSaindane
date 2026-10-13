@@ -1,75 +1,189 @@
+
 <div align="center">
 
 <img
   src="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/build-orbit.svg"
   width="100%"
-  alt="Vinayak Saindane — Engineering Field Note"
+  alt="Vinayak Saindane — Engineering"
 />
 
-**Full-stack · AI systems · Mobile · 3D / AR · Systems programming**
+<br/>
 
-[Portfolio](https://vinayak-saindane.vercel.app) ·
-[LinkedIn](https://www.linkedin.com/in/vinayak-saindane/) ·
-[Email](mailto:vinayaksaindane2006@gmail.com)
+<a href="https://vinayak-saindane.vercel.app">
+  <img src="https://img.shields.io/badge/PORTFOLIO-Visit%20my%20work-C7FF62?style=flat-square&labelColor=171A15" alt="Portfolio"/>
+</a>
+<a href="https://www.linkedin.com/in/vinayak-saindane/">
+  <img src="https://img.shields.io/badge/LINKEDIN-Connect-171A15?style=flat-square&logo=linkedin&logoColor=C7FF62" alt="LinkedIn"/>
+</a>
+<a href="mailto:vinayaksaindane2006@gmail.com">
+  <img src="https://img.shields.io/badge/EMAIL-Get%20in%20touch-171A15?style=flat-square&logo=gmail&logoColor=C7FF62" alt="Email"/>
+</a>
+
+<br/><br/>
+
+**12+ projects delivered** &nbsp;·&nbsp; **2 hackathon first-prize wins**
+
+*Full-stack engineering · AI systems · Mobile · 3D / AR*
 
 </div>
 
 ---
 
-## The work
+## 01 / What I do
 
-I build software across the product lifecycle—from interfaces and APIs to mobile applications, AI workflows, and deployment. My focus is on solving the actual problem, choosing the right technical approach, and delivering software that works in the real world.
+I build software from the first idea to deployment — from interfaces and APIs to mobile applications, AI-powered workflows, and production systems.
 
-**12+ projects delivered** · **2 hackathon first-prize wins**
+I care about more than making something work. I care about **why it exists, how the system is designed, and how well it performs in the real world.**
 
-## Selected engineering work
+<table>
+<tr>
+<td width="50%" valign="top">
 
-Client engagements are intentionally anonymized. The descriptions below summarize the engineering work without exposing client identities, production URLs, or confidential details.
+### ◈ Product engineering
 
-| Work | Engineering focus |
-|---|---|
-| Commerce experiences | Product catalogs, responsive storefronts, and conversion-focused user journeys |
-| Interactive 3D commerce | Three.js experiences, dynamic carts, and messaging-based order flows |
-| Business operations | Inventory tracking, transaction history, and low-stock visibility |
-| Property discovery | Dynamic listings, search experiences, and lead-generation workflows |
-| Workflow systems | Complaint tracking, status transitions, and administrative tools |
-| Appointment platforms | Authentication, role-based access, and booking workflows |
+- Web applications and responsive interfaces
+- Backend APIs and database architecture
+- Mobile application development
+- Authentication and role-based systems
 
-Further implementation details can be shared when client permissions allow.
+</td>
+<td width="50%" valign="top">
 
-## Independent achievements
+### ◈ Applied technology
 
-**Recipe Tadka — Imperia Hackathon 2025 · First Prize**
+- AI-powered workflows and integrations
+- Interactive 3D and WebAR experiences
+- Automation and deployment pipelines
+- Data-driven application features
 
-A Flutter-based recipe recommendation application integrating authentication, Firebase, APIs, and personalized content workflows.
+</td>
+</tr>
+</table>
 
-**Artha — Code Icon 2026 · First Prize**
+## 02 / Selected work
 
-A full-stack FinTech MVP developed during a 12-hour hackathon, featuring expense tracking, budgeting, analytics, and authentication.
+*Client engagements are intentionally anonymized. These summaries describe the engineering challenges without exposing client identities, production URLs, or confidential details.*
 
-## Engineering toolkit
+<table>
+<tr>
+<td width="50%" valign="top">
 
-**Frontend**  
-React · Next.js · TypeScript · Tailwind CSS
+**01 — Commerce experiences**
 
-**Backend and data**  
-Node.js · Express · MongoDB · Firebase · REST APIs
+Responsive product catalogs, dynamic product pages, and conversion-focused customer journeys.
 
-**Mobile**  
-Flutter · React Native
+</td>
+<td width="50%" valign="top">
 
-**AI systems**  
-LangChain · LangGraph · Whisper
+**02 — Interactive 3D**
 
-**3D / AR**  
-Three.js · WebAR · 3D experiences
+Three.js-based product experiences, interactive visuals, and messaging-based order flows.
 
-**Systems and delivery**  
-Rust · Git · GitHub Actions · Docker · Vercel · Railway
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 
-## Contribution activity
+**03 — Business operations**
+
+Inventory tracking, transaction history, stock visibility, and administrative workflows.
+
+</td>
+<td width="50%" valign="top">
+
+**04 — Discovery platforms**
+
+Dynamic listings, search experiences, and lead-generation workflows.
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**05 — Workflow systems**
+
+Complaint tracking, status transitions, and structured administration tools.
+
+</td>
+<td width="50%" valign="top">
+
+**06 — Role-based platforms**
+
+Authentication, permissions, booking flows, and multi-user application architecture.
+
+</td>
+</tr>
+</table>
+
+## 03 / Built under pressure
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### 🥇 Recipe Tadka
+
+**Imperia Hackathon 2025 · First Prize**
+
+A Flutter-based recipe recommendation application combining authentication, Firebase, APIs, and personalized content workflows.
+
+</td>
+<td width="50%" valign="top">
+
+### 🥇 Artha
+
+**Code Icon 2026 · First Prize**
+
+A full-stack FinTech MVP built during a 12-hour hackathon, featuring expense tracking, budgeting, analytics, and authentication.
+
+</td>
+</tr>
+</table>
+
+## 04 / Engineering toolkit
 
 <div align="center">
+
+**Web & interfaces**
+
+<img src="https://skillicons.dev/icons?i=react,nextjs,ts,tailwind,html,css&perline=6" alt="React, Next.js, TypeScript, Tailwind CSS, HTML and CSS"/>
+
+<br/>
+
+**Backend & data**
+
+<img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,firebase,supabase&perline=5" alt="Node.js, Express, MongoDB, Firebase and Supabase"/>
+
+<br/>
+
+**Mobile, AI & systems**
+
+<img src="https://skillicons.dev/icons?i=flutter,dart,python,rust,docker&perline=5" alt="Flutter, Dart, Python, Rust and Docker"/>
+
+<br/>
+
+**Delivery & tooling**
+
+<img src="https://skillicons.dev/icons?i=git,github,githubactions,vercel,linux&perline=5" alt="Git, GitHub, GitHub Actions, Vercel and Linux"/>
+
+</div>
+
+## 05 / How I approach engineering
+
+<div align="center">
+
+| 01 · Understand | 02 · Engineer | 03 · Deliver |
+|:---:|:---:|:---:|
+| Identify the real problem | Design the right solution | Test, deploy, improve |
+| Context before code | Systems before shortcuts | Outcomes over demos |
+
+</div>
+
+## 06 / Contribution activity
+
+<div align="center">
+
+*An animated view of the contribution grid generated from GitHub activity.*
 
 <picture>
   <source
@@ -83,7 +197,7 @@ Rust · Git · GitHub Actions · Docker · Vercel · Railway
   <img
     src="https://raw.githubusercontent.com/VinayakSaindane/VinayakSaindane/output/github-snake.svg"
     width="100%"
-    alt="GitHub contribution activity"
+    alt="Animated GitHub contribution snake"
   />
 </picture>
 
@@ -95,8 +209,10 @@ Rust · Git · GitHub Actions · Docker · Vercel · Railway
 
 **Build thoughtfully. Ship consistently. Keep learning.**
 
-[Portfolio](https://vinayak-saindane.vercel.app) ·
-[LinkedIn](https://www.linkedin.com/in/vinayak-saindane/) ·
-[Contact](mailto:vinayaksaindane2006@gmail.com)
+<a href="https://vinayak-saindane.vercel.app">Portfolio</a>
+&nbsp;·&nbsp;
+<a href="https://www.linkedin.com/in/vinayak-saindane/">LinkedIn</a>
+&nbsp;·&nbsp;
+<a href="mailto:vinayaksaindane2006@gmail.com">Contact</a>
 
 </div>
