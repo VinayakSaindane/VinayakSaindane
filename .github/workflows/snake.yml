@@ -1,33 +1,50 @@
-name: Generate Snake
+name: Generate Profile Visuals
 
 on:
   schedule:
-    - cron: "0 * * * *" # every hour
+    - cron: "17 0 * * *"
+
   workflow_dispatch:
+
   push:
     branches:
       - main
+    paths:
+      - "README.md"
+      - "scripts/build-orbit.py"
+      - ".github/workflows/snake.yml"
 
 permissions:
   contents: write
 
+concurrency:
+  group: profile-visuals
+  cancel-in-progress: true
+
 jobs:
   build:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
+
     steps:
-      - uses: actions/checkout@v3
-      
-      - name: Generate snake SVGs
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution snake
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: VinayakSaindane
+          github_token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            dist/github-snake.svg?color_snake=%236AF5D0&color_dots=%23E8F5F0,%23B5F0DF,%2378E4C1,%2335BF99,%231B8067
+            dist/github-snake-dark.svg?palette=github-dark&color_snake=%236AF5D0&color_dots=%23101816,%231B4035,%232B8068,%2335BF99,%236AF5D0
 
-      - name: Push to output branch
+      - name: Generate Engineering Orbit
+        run: |
+          python3 scripts/build-orbit.py \
+            --output dist/build-orbit.svg
+
+      - name: Publish generated visuals
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
@@ -36,5 +53,5 @@ jobs:
           clean-exclude: |
             .nojekyll
             CNAME
-          commit-message: "Update snake visualization [skip ci]"
+          commit-message: "Update profile visuals [skip ci]"
           force: true
