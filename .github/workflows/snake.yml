@@ -3,10 +3,8 @@ name: Generate Profile Visuals
 
 on:
   workflow_dispatch:
-
   schedule:
     - cron: "17 */6 * * *"
-
   push:
     branches:
       - main
@@ -28,7 +26,7 @@ jobs:
     timeout-minutes: 10
 
     steps:
-      - name: Checkout profile repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Generate contribution snake
@@ -37,24 +35,38 @@ jobs:
           github_user_name: VinayakSaindane
           github_token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           outputs: |
-            dist/github-snake.svg?color_snake=%236AF5D0&color_dots=%23E8F5F0,%23B5F0DF,%2378E4C1,%2335BF99,%231B8067
-            dist/github-snake-dark.svg?palette=github-dark&color_snake=%236AF5D0&color_dots=%23101816,%231B4035,%232B8068,%2335BF99,%236AF5D0
+            snake/github-snake.svg?color_snake=%236AF5D0&color_dots=%23E8F5F0,%23B5F0DF,%2378E4C1,%2335BF99,%231B8067
+            snake/github-snake-dark.svg?palette=github-dark&color_snake=%236AF5D0&color_dots=%23101816,%231B4035,%232B8068,%2335BF99,%236AF5D0
+
+      - name: Prepare output directory
+        run: |
+          rm -rf dist
+          mkdir -p dist
+          chmod u+rwx dist
+
+      - name: Copy snake assets
+        run: |
+          set -e
+          test -s snake/github-snake.svg
+          test -s snake/github-snake-dark.svg
+          cp snake/github-snake.svg dist/github-snake.svg
+          cp snake/github-snake-dark.svg dist/github-snake-dark.svg
 
       - name: Generate engineering banner
         run: |
           python3 scripts/build-orbit.py \
             --output dist/build-orbit.svg
 
-      - name: Verify generated files
+      - name: Verify assets
         run: |
           set -e
           test -s dist/build-orbit.svg
           test -s dist/github-snake.svg
           test -s dist/github-snake-dark.svg
-          echo "All three visual assets were generated."
+          echo "All assets generated successfully."
           ls -lh dist/
 
-      - name: Publish visuals to output branch
+      - name: Publish visual assets
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: dist
