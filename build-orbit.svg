@@ -1,5 +1,4 @@
 <svg xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink"
         width="1200" height="420"
         viewBox="0 0 1200 420"
         role="img" aria-labelledby="title desc">
@@ -7,122 +6,116 @@
   <title id="title">Vinayak Saindane — Engineering</title>
   <desc id="desc">
     Full-stack engineering, AI systems, mobile development,
-    interactive experiences and shipped products.
+    interactive 3D and shipped products.
   </desc>
 
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#151915"/>
-      <stop offset="1" stop-color="#101210"/>
+      <stop offset="0" stop-color="#151B18"/>
+      <stop offset="1" stop-color="#0E1311"/>
     </linearGradient>
 
+    <radialGradient id="glow" cx="0.18" cy="0.25" r="0.6">
+      <stop offset="0" stop-color="#7FD1AE" stop-opacity="0.10"/>
+      <stop offset="1" stop-color="#7FD1AE" stop-opacity="0"/>
+    </radialGradient>
+
     <linearGradient id="fade" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#C7FF62" stop-opacity="0"/>
-      <stop offset="0.5" stop-color="#C7FF62" stop-opacity="1"/>
-      <stop offset="1" stop-color="#C7FF62" stop-opacity="0"/>
+      <stop offset="0" stop-color="#7FD1AE" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#7FD1AE" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#7FD1AE" stop-opacity="0"/>
     </linearGradient>
 
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
       <path d="M40 0H0V40" fill="none"
-            stroke="#FFFFFF" stroke-opacity="0.035" stroke-width="1"/>
+            stroke="#FFFFFF" stroke-opacity="0.03" stroke-width="1"/>
     </pattern>
 
     <clipPath id="frame">
-      <rect width="1200" height="420" rx="4"/>
+      <rect width="1200" height="420" rx="10"/>
     </clipPath>
   </defs>
 
   <g clip-path="url(#frame)">
     <rect width="1200" height="420" fill="url(#background)"/>
+    <rect width="1200" height="420" fill="url(#glow)"/>
     <rect width="1200" height="420" fill="url(#grid)"/>
+    <rect x="0.5" y="0.5" width="1199" height="419" rx="10"
+          fill="none" stroke="#28312C"/>
 
-    <rect x="48" y="34" width="28" height="3" fill="#C7FF62"/>
-
-    <text x="88" y="42" fill="#92988F"
+    <!-- eyebrow -->
+    <circle cx="56" cy="38" r="4" fill="#7FD1AE">
+      <animate attributeName="opacity" values="1;0.35;1" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <text x="72" y="42" fill="#8A958F"
           font-family="monospace" font-size="12"
           letter-spacing="2.5">INDEPENDENT ENGINEERING / 2026</text>
 
-    <text x="48" y="126" fill="#F1F2EA"
+    <!-- name -->
+    <text x="48" y="126" fill="#E8EDE9"
           font-family="Arial, Helvetica, sans-serif"
           font-size="65" font-weight="700"
           letter-spacing="-2.5">VINAYAK</text>
 
-    <text x="48" y="194" fill="#F1F2EA"
+    <text x="48" y="194" fill="#E8EDE9"
           font-family="Arial, Helvetica, sans-serif"
           font-size="65" font-weight="700"
-          letter-spacing="-2.5">SAINDANE<tspan fill="#C7FF62">.</tspan></text>
+          letter-spacing="-2.5">SAINDANE<tspan fill="#7FD1AE">.</tspan></text>
 
-    <rect x="48" y="222" width="44" height="3" fill="#C7FF62"/>
+    <rect x="48" y="222" width="44" height="3" rx="1.5" fill="#7FD1AE"/>
 
-    <text x="48" y="259" fill="#F1F2EA"
+    <text x="48" y="259" fill="#E8EDE9"
           font-family="Arial, Helvetica, sans-serif"
           font-size="19">I build the layer between an idea</text>
-
-    <text x="48" y="286" fill="#F1F2EA"
+    <text x="48" y="286" fill="#E8EDE9"
           font-family="Arial, Helvetica, sans-serif"
           font-size="19">and a shipped product.</text>
 
-    <text x="48" y="341" fill="#92988F"
+    <text x="48" y="341" fill="#8A958F"
           font-family="monospace" font-size="12"
           letter-spacing="1.2">WEB  /  AI  /  MOBILE  /  3D + AR</text>
 
-    <line x1="710" y1="68" x2="710" y2="350"
-          stroke="#30352F" stroke-width="1"/>
+    <!-- divider -->
+    <line x1="710" y1="68" x2="710" y2="350" stroke="#28312C" stroke-width="1"/>
 
-    <text x="752" y="91" fill="#92988F"
+    <!-- method panel -->
+    <text x="752" y="91" fill="#8A958F"
           font-family="monospace" font-size="11"
           letter-spacing="2">THE WORKING METHOD</text>
 
-    <text x="752" y="145" fill="#C7FF62"
-          font-family="monospace" font-size="13">01</text>
-    <text x="798" y="145" fill="#F1F2EA"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="752" y="145" fill="#7FD1AE" font-family="monospace" font-size="13">01</text>
+    <text x="798" y="145" fill="#E8EDE9" font-family="Arial, Helvetica, sans-serif"
           font-size="23" font-weight="600">Understand</text>
-    <text x="798" y="168" fill="#92988F"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="798" y="168" fill="#8A958F" font-family="Arial, Helvetica, sans-serif"
           font-size="13">Start with the real problem.</text>
 
-    <line x1="752" y1="192" x2="1128" y2="192"
-          stroke="#30352F" stroke-width="1"/>
+    <line x1="752" y1="192" x2="1128" y2="192" stroke="#28312C" stroke-width="1"/>
 
-    <text x="752" y="232" fill="#C7FF62"
-          font-family="monospace" font-size="13">02</text>
-    <text x="798" y="232" fill="#F1F2EA"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="752" y="232" fill="#7FD1AE" font-family="monospace" font-size="13">02</text>
+    <text x="798" y="232" fill="#E8EDE9" font-family="Arial, Helvetica, sans-serif"
           font-size="23" font-weight="600">Engineer</text>
-    <text x="798" y="255" fill="#92988F"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="798" y="255" fill="#8A958F" font-family="Arial, Helvetica, sans-serif"
           font-size="13">Build with intent and precision.</text>
 
-    <line x1="752" y1="279" x2="1128" y2="279"
-          stroke="#30352F" stroke-width="1"/>
+    <line x1="752" y1="279" x2="1128" y2="279" stroke="#28312C" stroke-width="1"/>
 
-    <text x="752" y="319" fill="#C7FF62"
-          font-family="monospace" font-size="13">03</text>
-    <text x="798" y="319" fill="#F1F2EA"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="752" y="319" fill="#7FD1AE" font-family="monospace" font-size="13">03</text>
+    <text x="798" y="319" fill="#E8EDE9" font-family="Arial, Helvetica, sans-serif"
           font-size="23" font-weight="600">Ship</text>
-    <text x="798" y="342" fill="#92988F"
-          font-family="Arial, Helvetica, sans-serif"
+    <text x="798" y="342" fill="#8A958F" font-family="Arial, Helvetica, sans-serif"
           font-size="13">Deliver. Learn. Improve.</text>
 
-    <line x1="48" y1="385" x2="1152" y2="385"
-          stroke="#30352F" stroke-width="1"/>
+    <!-- footer -->
+    <line x1="48" y1="385" x2="1152" y2="385" stroke="#28312C" stroke-width="1"/>
 
-    <text x="48" y="405" fill="#92988F"
-          font-family="monospace" font-size="10"
+    <text x="48" y="405" fill="#8A958F" font-family="monospace" font-size="10"
           letter-spacing="1.2">DESIGN WITH PURPOSE. ENGINEER FOR REALITY.</text>
 
-    <text x="1152" y="405" fill="#C7FF62"
-          font-family="monospace" font-size="10"
+    <text x="1152" y="405" fill="#7FD1AE" font-family="monospace" font-size="10"
           text-anchor="end">BUILD / SHIP / REPEAT</text>
 
-    <rect x="-160" y="382" width="160" height="3"
-          fill="url(#fade)">
-      <animate attributeName="x"
-               values="-160;1200"
-               dur="7s"
-               repeatCount="indefinite"/>
+    <rect x="-160" y="383" width="160" height="2" fill="url(#fade)">
+      <animate attributeName="x" values="-160;1200" dur="7s" repeatCount="indefinite"/>
     </rect>
   </g>
 </svg>
