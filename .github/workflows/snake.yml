@@ -1,4 +1,3 @@
-
 name: Generate Profile Visuals
 
 on:
@@ -29,41 +28,40 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # Palette: one mint accent, shared with the banner and README.
+      # Light: dark-green snake on pale mint cells.
+      # Dark:  soft mint-white snake on deep green cells.
       - name: Generate contribution snake
-        uses: Platane/snk@v3
+        uses: Platane/snk/svg-only@v3
         with:
           github_user_name: VinayakSaindane
           github_token: ${{ secrets.PROFILE_TOKEN || secrets.GITHUB_TOKEN }}
           outputs: |
-            snake/github-snake.svg?color_snake=%236AF5D0&color_dots=%23E8F5F0,%23B5F0DF,%2378E4C1,%2335BF99,%231B8067
-            snake/github-snake-dark.svg?palette=github-dark&color_snake=%236AF5D0&color_dots=%23101816,%231B4035,%232B8068,%2335BF99,%236AF5D0
+            snake/snake-light.svg?color_snake=%231F5C46&color_dots=%23E9EFEB,%23C3E3D2,%2398D0B5,%236BB997,%233C9774&color_dot_border=%23FFFFFF
+            snake/snake-dark.svg?color_snake=%23D6F5E6&color_dots=%23151B18,%231E3A2E,%232D6B50,%234C9F7B,%237FD1AE&color_dot_border=%230E1311
 
       - name: Prepare output directory
         run: |
           rm -rf dist
           mkdir -p dist
-          chmod u+rwx dist
 
       - name: Copy snake assets
         run: |
           set -e
-          test -s snake/github-snake.svg
-          test -s snake/github-snake-dark.svg
-          cp snake/github-snake.svg dist/github-snake.svg
-          cp snake/github-snake-dark.svg dist/github-snake-dark.svg
+          test -s snake/snake-light.svg
+          test -s snake/snake-dark.svg
+          cp snake/snake-light.svg dist/snake-light.svg
+          cp snake/snake-dark.svg dist/snake-dark.svg
 
       - name: Generate engineering banner
-        run: |
-          python3 scripts/build-orbit.py \
-            --output dist/build-orbit.svg
+        run: python3 scripts/build-orbit.py --output dist/build-orbit.svg
 
       - name: Verify assets
         run: |
           set -e
           test -s dist/build-orbit.svg
-          test -s dist/github-snake.svg
-          test -s dist/github-snake-dark.svg
-          echo "All assets generated successfully."
+          test -s dist/snake-light.svg
+          test -s dist/snake-dark.svg
           ls -lh dist/
 
       - name: Publish visual assets
